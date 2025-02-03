@@ -15,19 +15,20 @@ interface TimelineSectionProps {
 
 const defaultEvents: TimelineEvent[] = [
   {
-    date: "Feb 6",
+    date: "February 6 - 9 AM EST",
     title: "Hackathon Kickoff",
-    description: "Opening ceremony and project submissions begin",
+    description: "Project submissions begin",
   },
   {
     date: "Feb 7-9",
     title: "Building Period",
-    description: "Teams work on their projects with mentor support",
+    description: "Attend optional daily office hours",
   },
   {
-    date: "Feb 10",
+    date: "February 10 - 8 PM EST",
     title: "Final Submissions",
-    description: "Project submissions close and judging begins",
+    description:
+      "Project submissions close and judging + community voting begins",
   },
 ];
 
