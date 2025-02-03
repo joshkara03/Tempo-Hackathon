@@ -10,13 +10,14 @@ interface HeroSectionProps {
 }
 
 const HeroSection = ({
-  title = "TempoBuilds: Build in Public Hackathon",
-  description = "Join the TempoBuilds hackathon to showcase your creativity and build innovative applications using Tempo, with chances to win up to $1000 in prizes and credits.",
+  title = "TempoBuilds: Build in Public Hackathon🚀",
+  description = "Join the TempoBuilds hackathon to showcase your creativity and build innovative applications using Tempo, with chances to win up to $1000 in cash and credits.",
   ctaText = "Register Now",
-  onCtaClick = () => window.open("https://forms.gle/PLACEHOLDER", "_blank"),
+  onCtaClick = () =>
+    window.open("https://forms.gle/YmC6CvhhqAuhUEXT7", "_blank"),
 }: HeroSectionProps) => {
   return (
-    <div className="w-full bg-black flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden py-32 md:py-48">
+    <div className="w-full bg-black flex items-center justify-center px-4 sm:px-6 lg:px-8 relative overflow-hidden py-24 md:py-32">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent" />
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <motion.div

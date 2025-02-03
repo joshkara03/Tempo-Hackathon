@@ -65,7 +65,7 @@ const PrizeSection = ({ prizes }: PrizeSectionProps) => {
   const displayPrizes = prizes || defaultPrizes;
 
   return (
-    <section className="w-full py-24 px-4 relative overflow-hidden bg-gradient-to-b from-black via-purple-950/20 to-black">
+    <section className="w-full py-16 px-4 relative overflow-hidden bg-gradient-to-b from-black via-purple-950/20 to-black">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-transparent to-transparent" />
 
       <div className="relative z-10 max-w-7xl mx-auto">

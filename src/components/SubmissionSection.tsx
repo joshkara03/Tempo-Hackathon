@@ -11,13 +11,20 @@ const SubmissionSection = ({
   const steps = [
     {
       number: "01",
-      title: "Build Your Project",
-      description: "Create an innovative application using Tempo's features",
+      title: "Share #TempoBuilds on Twitter",
+      description: "Post your submission with #TempoBuilds and tag @Tempo_Labs",
     },
     {
       number: "02",
-      title: "Share #TempoHacks on Twitter",
-      description: "Post your submission with #TempoHacks and tag @Tempo_Labs",
+      title: "Top 10 Selection",
+      description:
+        "The Tempo team will choose the top 10 submissions based on the criteria below",
+    },
+    {
+      number: "03",
+      title: "Community Vote",
+      description:
+        "We will post a Twitter thread and the post with the most likes wins",
     },
   ];
 
@@ -37,7 +44,7 @@ const SubmissionSection = ({
         </motion.div>
 
         <div className="max-w-5xl mx-auto px-4">
-          <div className="flex flex-col md:flex-row items-start justify-center gap-16 relative">
+          <div className="flex flex-col md:flex-row items-start justify-center gap-8 relative">
             {steps.map((step, index) => (
               <motion.div
                 key={index}

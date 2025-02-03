@@ -20,22 +20,22 @@ const RulesSection = ({
     {
       title: "Project Requirements",
       content:
-        "Your project must use Tempo in a meaningful way. All code must be original and created during the hackathon period.",
+        "Your project must use Tempo in a meaningful way. All code must be created during the hackathon period.",
     },
     {
       title: "How to Submit",
       content:
-        "Post your project on Twitter/X before the deadline (Feb 10) using #TempoHacks. Include a link to your project and a brief description.",
+        "Post your project on Twitter/X anytime during th hackathon ( February 6 - 9 AM EST to February 10 - 8 PM EST) using #TempoBuilds. Include a link to your project and a brief description.",
     },
     {
-      title: "Twitter Integration",
+      title: "What is Building in Public?",
       content:
-        "Share your progress using #TempoBuilds. Regular updates are encouraged but not required.",
+        "Building in Public is the believe that by sharing your progress with the world, you create a positive feedback loop. People help you on your journey, give you feedback, and even raise awareness for what your building. Share your progress using #TempoHacks. Regular updates are encouraged but not required.",
     },
     {
       title: "Judging Criteria",
       content:
-        "Projects will be judged on creativity, technical complexity, and practical application of Tempo features.",
+        "Projects will be judged on Design, technical complexity/funcitonality, and the idea for the application itself. The Tempo team will chose the top 10 and the community will vote for the best projects via twitter/X likes",
     },
   ],
   twitterHandle = "@Tempo_Labs",
@@ -63,14 +63,18 @@ const RulesSection = ({
         >
           {[
             {
+              title: "Tutorial",
+              href: "https://www.youtube.com/watch?v=CaiKr-TONLY",
+            },
+
+            {
               title: "Documentation",
               href: "https://tempolabsinc.mintlify.app/introduction",
             },
             {
               title: "Discord Support",
-              href: "https://discord.gg/6r6fHmMjcck",
+              href: "https://discord.gg/6r6fHmMjcc",
             },
-            { title: "Tutorial (Coming Soon)", href: "#" },
           ].map((resource, index) => (
             <Card
               key={index}
